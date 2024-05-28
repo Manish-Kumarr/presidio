@@ -1,0 +1,51 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+.property-detail-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.property-detail-container h2 {
+  text-align: center;
+}
+
+.property-detail-container form {
+  margin-top: 20px;
+}
+
+.property-detail-container form div {
+  margin-bottom: 15px;
+}
+
+.property-detail-container form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.property-detail-container form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.property-detail-container form button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.property-detail-container form button:last-child {
+  margin-right: 0;
+}
+
+.hover{
+  cursor: pointer;
+}
